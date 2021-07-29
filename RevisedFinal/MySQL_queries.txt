@@ -1,0 +1,10 @@
+CREATE DATABASE 'final'
+
+CREATE TABLE `store_order` (
+ `customerID` varchar(100) DEFAULT NULL,
+ `name` varchar(100) DEFAULT NULL,
+ `email` varchar(100) DEFAULT NULL,
+ `itemsPurchased` varchar(100) DEFAULT NULL,
+ `price` double DEFAULT NULL,
+ `datePurchased` date DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci

@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Airline</title>
+  </head>
+
+  <body>
+    <h2>Please take our survey about your flight.</h2>
+    <form method="POST" action="AirlineSurvey.php">
+        <p>Flight Number <input type="text" name="flight_num"/></p>
+        <p>Flight Date <input type="text" name="date"/></p>
+        <p>Flight Time <input type="text" name="time"/></p>
+        <fieldset>
+            <legend>Question 1:</legend>
+            <h3>How friendly were the staff?</h3>
+            <input type="radio" name="friendliness" value="No Opinion" checked>
+            <label for="No Opinion">No Opinion</label>
+            <input type="radio" name="friendliness" value="Poor">
+            <label for="Poor">Poor</label>
+            <input type="radio" name="friendliness" value="Fair">
+            <label for="Fair">Fair</label>
+            <input type="radio" name="friendliness" value="Good">
+            <label for="Good">Good</label>
+            <input type="radio" name="friendliness" value="Excellent">
+            <label for="Excellent">Excellent</label>
+        </fieldset>
+        <fieldset>
+            <legend>Question 2:</legend>
+            <h3>How was the luggage space?</h3>
+            <input type="radio" name="luggage" value="No Opinion" checked>
+            <label for="No Opinion">No Opinion</label>
+            <input type="radio" name="luggage" value="Poor">
+            <label for="Poor">Poor</label>
+            <input type="radio" name="luggage" value="Fair">
+            <label for="Fair">Fair</label>
+            <input type="radio" name="luggage" value="Good">
+            <label for="Good">Good</label>
+            <input type="radio" name="luggage" value="Excellent">
+            <label for="Excellent">Excellent</label>
+        </fieldset>
+        <fieldset>
+            <legend>Question 3:</legend>
+            <h3>How comfortable was the seating?</h3>
+            <input type="radio" name="comfort" value="No Opinion" checked>
+            <label for="No Opinion">No Opinion</label>
+            <input type="radio" name="comfort" value="Poor">
+            <label for="Poor">Poor</label>
+            <input type="radio" name="comfort" value="Fair">
+            <label for="Fair">Fair</label>
+            <input type="radio" name="comfort" value="Good">
+            <label for="Good">Good</label>
+            <input type="radio" name="comfort" value="Excellent">
+            <label for="Excellent">Excellent</label>
+        </fieldset>
+        <fieldset>
+            <legend>Question 4:</legend>
+            <h3>How clean was the aircraft?</h3>
+            <input type="radio" name="cleanliness" value="No Opinion" checked>
+            <label for="No Opinion">No Opinion</label>
+            <input type="radio" name="cleanliness" value="Poor">
+            <label for="Poor">Poor</label>
+            <input type="radio" name="cleanliness" value="Fair">
+            <label for="Fair">Fair</label>
+            <input type="radio" name="cleanliness" value="Good">
+            <label for="Good">Good</label>
+            <input type="radio" name="cleanliness" value="Excellent">
+            <label for="Excellent">Excellent</label>
+        </fieldset>
+        <fieldset>
+            <legend>Question 5:</legend>
+            <h3>How noisy was the aircraft?</h3>
+            <input type="radio" name="noise" value="No Opinion" checked>
+            <label for="No Opinion">No Opinion</label>
+            <input type="radio" name="noise" value="Poor">
+            <label for="Poor">Poor</label>
+            <input type="radio" name="noise" value="Fair">
+            <label for="Fair">Fair</label>
+            <input type="radio" name="noise" value="Good">
+            <label for="Good">Good</label>
+            <input type="radio" name="noise" value="Excellent">
+            <label for="Excellent">Excellent</label>
+        </fieldset>
+        <p><input type="submit" value="Submit" /></p>
+    </form>
+
+    <p><a href="ShowSurveys.php">Show Past Surveys</a></p>
+
+
+
+
+
+  </body>
+</html>

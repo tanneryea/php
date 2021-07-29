@@ -1,0 +1,6 @@
+Thomas, Sherron, 24, 80
+Thomas, Sherron, 24, 80
+Yea, Tanner, 28, 100
+Brodie, Alex, 28, 120
+Brodie, Alex, 28, 120
+Wright, Dalton, 26, 200

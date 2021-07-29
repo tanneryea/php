@@ -1,0 +1,10 @@
+Glorantha
+Drow
+False
+Warlock
+Guenhywvar
+Mount Celestia
+True
+Barovia
+True
+Brains
